@@ -1,0 +1,8 @@
+services:
+  fishplatform:
+    image: fishplatform
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
